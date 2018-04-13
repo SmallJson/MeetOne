@@ -1,5 +1,5 @@
 package com.bupt.meetone.model;
-
+//无业务意义
 public class Health {
     private String hello;
 

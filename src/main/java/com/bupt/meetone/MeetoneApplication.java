@@ -1,9 +1,10 @@
 package com.bupt.meetone;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-
+@MapperScan("com.bupt.meetone.mapper")
 @SpringBootApplication
 public class MeetoneApplication {
 
